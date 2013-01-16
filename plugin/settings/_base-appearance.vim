@@ -118,6 +118,10 @@ set relativenumber
 " Syntax coloring lines that are too long just slows down the world
 set synmaxcol=2048
 
-" matching parens highlight
+" Matching parens highlight
 let loaded_matchparen = 1
+
+" Show special characters
+set list
+set listchars=tab:·\ ,eol:¬
 
