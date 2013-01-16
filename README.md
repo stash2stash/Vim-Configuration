@@ -15,14 +15,14 @@ Install:
    3. Pull in submodules
       git submodule init
       git submodule update
-   
+
 Add new plugin/etc:
    Variant 1:
       cd .vim
       git submodule add https://github.com/Townk/vim-autoclose.git bundle/vim-autocose
       git submodule init
-      git submodule update   
+      git submodule update
    Variant 2:
       cd .vim/bundle
       git clone https://github.com/Townk/vim-autoclose.git
-      
+
