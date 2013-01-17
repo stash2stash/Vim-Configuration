@@ -123,5 +123,5 @@ let loaded_matchparen = 1
 
 " Show special characters
 set list
-set listchars=tab:·\ ,eol:¬
+set listchars=tab:›\ ,eol:¬
 
