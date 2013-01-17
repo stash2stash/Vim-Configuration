@@ -48,6 +48,9 @@ nnoremap <C-*> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
 nnoremap ' `
 nnoremap ` '
   
+" Exit from insert mode
+imap jj <ESC>
+
 " Disable arrow keys
 nnoremap <up> <nop>
 nnoremap <down> <nop>
