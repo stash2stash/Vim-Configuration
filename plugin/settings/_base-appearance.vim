@@ -125,3 +125,6 @@ let loaded_matchparen = 1
 set list
 set listchars=tab:›\ ,eol:¬
 
+" Save all when lost focus
+au FocusLost * silent! :wa
+
