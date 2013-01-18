@@ -48,7 +48,7 @@ set stl+=Buf:#%n\               " Buffer
 set stl+=%f\                    " File name
 set stl+=%w%h%m%r\              " Options
 set stl+=%=                     " Align right
-set stl+=%l\:%c/%L[%p%%]        " Line (aligned right)
+set stl+=%l\:%c/%L[%p%%]        " Line
 "set stl+=[%b][0x%B]            " Char under cursor
 
 " Tell VIM to always put a status line in, even if there is only one window
